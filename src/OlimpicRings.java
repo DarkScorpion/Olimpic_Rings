@@ -4,7 +4,7 @@ import java.awt.Graphics;
 
 public class OlimpicRings 
 {
-	//Конструктор класса по умолчанию
+	//Метод рисующий кольца
 	public void PaintRings(Graphics g)
 	{
 		Ring BlueRing = new Ring(50,50,Color.blue);
@@ -22,8 +22,7 @@ public class OlimpicRings
 		Ring GreenRing = new Ring(160,90,Color.green);
 		GreenRing.paint(g);
 	}
-	//Перезагрузка конструктора с дополнительными параметрами: стартовые координаты и радиус 
-	//Плюс автоподбор размера
+	//Перезагрузка метода с дополнительными параметрами: стартовые координаты и радиус 
 	public void PaintRings(Graphics g, int startX, int startY, int radius)
 	{
 		int d;
