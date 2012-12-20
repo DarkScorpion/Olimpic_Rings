@@ -1,7 +1,5 @@
 import java.awt.Color;
 import java.awt.Graphics;
-import java.io.Console;
-import java.util.logging.Logger;
 
 
 public class OlimpicRings 
